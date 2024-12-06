@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "673e8d12829f7b3535096dd3_a53e9be4-9713-4800-94c3-1460421fc258",
+  "id": "zoo_zoo_all",
+  "unpublishedCollection": {
+    "name": "zoo_all",
+    "pageId": "zoo",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

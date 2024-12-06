@@ -1,0 +1,185 @@
+{
+  "gitSyncId": "673e8d12829f7b3535096dd3_7bb58cc7-0087-45de-8a1b-7177fb0a3675",
+  "id": "zoo_zoo_klook",
+  "pluginId": "restapi-plugin",
+  "pluginType": "API",
+  "unpublishedAction": {
+    "actionConfiguration": {
+      "encodeParamsToggle": true,
+      "headers": [
+        {
+          "key": "_pt",
+          "value": "b8a950b6-a285-4e42-8266-1e652c425195"
+        },
+        {
+          "key": "accept",
+          "value": "application/json, text/plain, */*"
+        },
+        {
+          "key": "accept-language",
+          "value": "en_BS"
+        },
+        {
+          "key": "baggage",
+          "value": "sentry-environment=production,sentry-release=2fae29f1cbd4342b651d43bb174f08e3b3010477,sentry-public_key=feb19a04dcb74bb52b80742f9efed9e8,sentry-trace_id=43bd91511d5e43de98e9654b97291ed2,sentry-transaction=ActivityHome,sentry-sampled=false"
+        },
+        {
+          "key": "cache-control",
+          "value": "no-cache"
+        },
+        {
+          "key": "cookie",
+          "value": "_klks=N=iTI=BvR1i/RwRLjH26CAqjRAeHdNqGd15ZqoC=38aZh8iCJSajJgjF/xJVtGOJkGxnvWOuvrUfLBiqkKri2Kn0o7ruo0o0/jpct40B14a+Fn0VF9e8uHeBtRonDR4IsGoqsSBxhIQi; acw_tc=1a0c384f17294766627324666e004365443f8856da72f6d13be98371def76d; kepler_id=b8a950b6-a285-4e42-8266-1e652c425195; klk_rdc=US; klk_ps=2; __lt__cid=2ee8540a-f22c-49cb-8413-023a7d988561; __lt__cid.c83939be=2ee8540a-f22c-49cb-8413-023a7d988561; __lt__sid=77581b5a-a643316c; __lt__sid.c83939be=77581b5a-a643316c; _fwb=895xx0sdjZQZZLA7VVeA7w.1729476672015; _yjsu_yjad=1729476672.dbf2be25-b004-485d-ad81-3774a54b20ae; _gcl_au=1.1.1498958009.1729476672; _gid=GA1.2.1282258957.1729476672; _tt_enable_cookie=1; _ttp=LdKVd0TNBy3LMybK1PyyNcaVMWg; dable_uid=68631920.1729476675150; KSID=DS.1395eb3031eb471a6756ffd98f59679b; JSESSIONID=29DB388CF9F70E49DA3C33579664A259; KOUNT_SESSION_ID=29DB388CF9F70E49DA3C33579664A259; locale=zh-cn; clientside-cookie=22934f78da0bcbad111514aa3b5cc7aec8a88064a99afcd32674d694f3a5a8e273abedca5519ae01449d4e1d841d8a5fb8aee67e6e4514ed0e4ba15345cc6a68239fcd8a42bb52a776ea306507cd9b1b693e2a54d47692804942499af3a6ab9f37d70dff6b49111ed50f85aa919f0a3cac726f91eb260183a80958f3d5e842360b6e59ad6f2d28fc09f07985d67e22551f8c8a52c6711389b7ebb8; klk_currency=CNY; g_state={\"i_p\":1729483886954,\"i_l\":1}; ssxmod_itna=QqRx9Dci5Dqeq0dD=r5BKGQeEc7YQDBGGDhZxgD0vToiODUxxn+WYwoqK+Ap3VGWKU2+xNFqOA3WY4fW+d4GLDmKjx7bpPiiDC40rD74irDDxD3Db4KDSCxG=DjWz6MyvxYPGW3qA3DYxDrpZPDRxi7DD5DArPDwx0CpO2DQGKqDG5qkRGesGxsxbahUBYkqeAqtWKD9xoDsh0LFIYjRR0Cx+ffSERHDl9XDC9kUi5Qt4GdAa5CSO+efGheiGqKhDx4jQGq=oxqq7DchQD4K0i51I+qC7meYir3adNqDDpqNDhxiQGDD; ssxmod_itna2=QqRx9Dci5Dqeq0dD=r5BKGQeEc7YQDBGGDhZxnKfwe4DstYbeDLewiket0B4n+q5gQikGms7AhrBpsbAP+h=dVCQYH6I/fOWgrEo2iPY=E86AnIq4Y6=6fk6+a+TLauQbf=e2NXx3q=1AWN/GDTH2RNFe+bS=KK=+IFbieTwhqiNS+WmEPrIEAv9G2+4fmqape87Q0Nb/5dm/H==fcD4hhzhGerdOwxapabKapWFRLNN6EN=IB7R8omQZmqo5uELZT+9Cmh2plR90INHOIy7HHRB0lXT4=qHrIPQSbw/joPnDeTjPn/Nh37BokEkUAaMM1UDxyLd=ODyqqBA7Fksql=enx/3a14qI2a1lOC8sFxwKGGY04IrQ=oobODxT+9DQUf+T3aC7C9GH8D3ulGHr100xeTmYDQkbwOw3Hi=XrFOh3eE8Q6QNcf=ho43aw3KGmKc24KOQHodAqjKesE23t2v2B5B0FX05TbmsuxIoCuCC6odXi3hPtzl=brhXnQWgpCgY4xx+l3qimSx2U7OH4KA6obE8lfT42454tf1GwWOni4p+Qz32mQF69YADDwxuW4qu7GlDFpbkIReCvmqre40nks++0tSpfVErwNDCD4kkqKIdqmYenfb6lELmfdYqDGcDG7ZGxWGxkDKdoe4D===; tfstk=gL4ZVlYZRNQwbeQSOX3qa4YRN00teVX5SrMjiSVm1ADM5F90YR2nCAw_ixy4dvCT5xZ6mZP8_Acinc4EnRwQC13j5mYqd5MsC5D1uoyu3xMsc1ee6yyylF6OXSYqlqX5Fa_7613xoTgFEH2k6jGynfvjmHDnkDR_yBQ765dhyJeoia9251F3nnD0n2mnwj0DsqccT2cqwqYimFxHKvhmoqYMSWbngbvMom20t6lxKxcuwlZXYbmGN3AyP7bB6cHusv8DzBhijFFwcELY8foaoRMEbczE_ckovfVgyP2QiPatvMxEkWZz3o2ldhMg4byEVlWy78ytiSl0QadrKPP48cEBwUVE0Ar3SDRDo5uKn0Z4QO-tIlwE2XmHgahQFvVTSk5vK52SQVcnAafztmqQW0U1KFuu25g_m8XBfAqrigR9HXXpXrEwnnoi9Xk5T6SRgsRfZnpXOnKxxYlEF1H9Dnni9Xk5T6-vDcLETY1tB; _dc_gtm_UA-86696233-1=1; _ga=GA1.1.696716914.1729476672; _ga_V8S4KC8ZXR=GS1.1.1729476671.1.1.1729476756.37.0.1336563665; _ga_FW3CMDM313=GS1.1.1729476671.1.1.1729476756.0.0.0; klk_i_sn=1819020343..1729476756717; klk_ga_sn=4221222683..1729476756717; wcs_bt=s_2cb388a4aa34:1729476757; _uetsid=be4a35a08f5111efbd9ecbba4b73144d; _uetvid=be4a2fe08f5111efbe20871c8da591b9; forterToken=1e5ef93e21744f94ba0a4984a79ec7d8_1729476757946__UDF43-m4_21ck; datadome=A0WyfGOt3KvoeYkrJ6a78bKZGtTXrcfIx55_Qe21W9mfth6YcOR7RSsJgoy5WvJhgJyFgkPJHNopzv31jX00nZTHAfUEom2e~nmCSdrzhiDRGr9PYHo5~r6TiZWduRiZ; datadome=DQrZ8TtDYX~0JdRTDbjGfqQjLV87lT8hXZcAFkdVmwMtg1Sa04QW~hUs12B4ZsxhJkEyB74t_Tiz24Sl1hO9oW60xaT58hW9XaKpUUlOwXNRxsmYXRG38J_ABOVviKVh"
+        },
+        {
+          "key": "currency",
+          "value": "CNY"
+        },
+        {
+          "key": "priority",
+          "value": "u=1, i"
+        },
+        {
+          "key": "referer",
+          "value": "https://www.klook.com/activity/141-singapore-zoo-singapore/"
+        },
+        {
+          "key": "sec-ch-device-memory",
+          "value": "8"
+        },
+        {
+          "key": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+        },
+        {
+          "key": "sec-ch-ua-arch",
+          "value": "\"x86\""
+        },
+        {
+          "key": "sec-ch-ua-full-version-list",
+          "value": "\"Google Chrome\";v=\"129.0.6668.101\", \"Not=A?Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"129.0.6668.101\""
+        },
+        {
+          "key": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "key": "sec-ch-ua-model",
+          "value": "\"\""
+        },
+        {
+          "key": "sec-ch-ua-platform",
+          "value": "\"Windows\""
+        },
+        {
+          "key": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "key": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "key": "sec-fetch-site",
+          "value": "same-origin"
+        },
+        {
+          "key": "sentry-trace",
+          "value": "43bd91511d5e43de98e9654b97291ed2-b606591ace073c91-0"
+        },
+        {
+          "key": "user-agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        },
+        {
+          "key": "x-klook-host",
+          "value": "www.klook.com"
+        },
+        {
+          "key": "x-klook-kepler-id",
+          "value": "b8a950b6-a285-4e42-8266-1e652c425195"
+        },
+        {
+          "key": "x-klook-market",
+          "value": "global"
+        },
+        {
+          "key": "x-klook-page-open-id",
+          "value": "732038a9-b612-42b0-963e-df6e585c6a2d"
+        },
+        {
+          "key": "x-klook-tint",
+          "value": "{\"kepler\":[\"253:861\",\"669:3215\",\"684:3546\",\"694:3667\",\"695:3674\",\"706:3783\",\"732:4304\",\"741:4469\",\"761:4623\",\"768:4732\",\"774:4869\",\"778:4888\",\"779:4897\",\"780:4904\",\"787:4996\",\"788:5005\",\"818:5278\",\"822:5363\",\"828:5434\",\"851:5735\",\"853:5739\",\"854:5751\",\"855:5752\",\"871:5974\",\"877:6067\",\"885:6186\",\"886:6213\",\"900:6281\",\"901:6288\",\"910:6455\",\"931:6736\",\"933:6751\",\"936:9309\",\"947:7014\",\"948:7023\",\"969:7423\",\"970:7425\",\"978:7536\",\"980:7551\",\"994:7879\",\"1006:8210\",\"1016:8314\",\"1017:8338\",\"1020:8414\",\"1038:8663\",\"1058:9017\",\"1084:9630\",\"1091:9724\",\"1128:10287\",\"1136:10528\",\"1147:10834\",\"1171:11684\",\"1172:11691\",\"1180:11872\",\"1183:11888\",\"1184:11895\",\"1185:11900\",\"1191:12047\",\"1193:12099\",\"1194:12173\",\"1205:12359\",\"1206:12363\",\"1209:12387\",\"1219:12858\",\"1226:13132\",\"1229:13466\",\"1231:13202\",\"1233:13338\",\"1243:13402\",\"1264:13863\",\"1278:14584\",\"1295:15296\",\"1297:15366\",\"1298:15427\",\"1304:15492\",\"1309:15662\",\"1313:15674\",\"1315:15687\",\"1318:15711\",\"1327:15787\",\"1344:16275\"]}"
+        },
+        {
+          "key": "x-klook-user-residence",
+          "value": "28_US"
+        },
+        {
+          "key": "x-platform",
+          "value": "desktop"
+        },
+        {
+          "key": "x-requested-with",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "httpMethod": "GET",
+      "paginationType": "NONE",
+      "path": "/v1/experiencesrv/activity/package_service/get_package_option_sources",
+      "queryParameters": [
+        {
+          "key": "activity_id",
+          "value": "141"
+        },
+        {
+          "key": "translation",
+          "value": ""
+        },
+        {
+          "key": "partner_type",
+          "value": ""
+        },
+        {
+          "key": "from_b",
+          "value": ""
+        },
+        {
+          "key": "sales_channel",
+          "value": "customer"
+        },
+        {
+          "key": "package_option_type",
+          "value": "package_options_group"
+        },
+        {
+          "key": "k_lang",
+          "value": "en_BS"
+        },
+        {
+          "key": "k_currency",
+          "value": "CNY"
+        },
+        {
+          "key": "preview",
+          "value": "0"
+        }
+      ],
+      "timeoutInMillisecond": 10000
+    },
+    "confirmBeforeExecute": false,
+    "datasource": {
+      "datasourceConfiguration": {
+        "url": "https://www.klook.com"
+      },
+      "isAutoGenerated": false,
+      "name": "https://www.klook.com",
+      "pluginId": "restapi-plugin"
+    },
+    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "name": "zoo_klook",
+    "pageId": "zoo",
+    "userSetOnLoad": false
+  }
+}
