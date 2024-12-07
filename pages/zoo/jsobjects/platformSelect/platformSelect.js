@@ -6,7 +6,7 @@ export default {
 				case 'CTRIP':
 					result = (await zoo_ctrip.run()).resources.map((resource) => {
 						return {
-							name: resource.name,  // 设置 name 为 fullName
+							name: resource.fullName,  // 设置 name 为 fullName
 							price: resource.displayPrice  // 设置 price 为 displayPrice
 						};
 					});
@@ -16,7 +16,7 @@ export default {
 					result = (await zoo_klook.run()).result.packages.map((pkg) => { // 使用 'pkg' 代替 'package'
 						return {
 							name: pkg.package_name,  // 设置 name 为 package_name
-							price: pkg.price_show.sale_price  // 设置 price 为 sell_price
+							price: pkg.sell_price  // 设置 price 为 sell_price
 						};
 					});
 					break;
