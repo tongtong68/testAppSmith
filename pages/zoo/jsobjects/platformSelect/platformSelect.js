@@ -31,7 +31,9 @@ export default {
 					break;
 
 				case 'TRIP':
-					result = (await zoo_trip.run()).resources.map((resource) => {
+					result = (await zoo_trip.run()).resources
+						.filter((resource) => resource.name)  // 先过滤掉 name 为 undefined 或空字符串的资源
+						.map((resource) => {
 						return {
 							name: resource.name,  // 设置 name 为 fullName
 							price: resource.displayPrice  // 设置 price 为 displayPrice
