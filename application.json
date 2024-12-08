@@ -1,11 +1,16 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#D9E7FF",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
   "evaluationVersion": 2,
   "pages": [
     {
@@ -14,6 +19,6 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   }
 }
