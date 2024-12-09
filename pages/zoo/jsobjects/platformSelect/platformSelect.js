@@ -42,9 +42,31 @@ export default {
 					break;
 
 					// 如果有 TRAVELOKA, 可使用以下代码
-					// case 'TRAVELOKA':
-					//   result = await queryTraveloka.run();
-					//   break;
+				case 'TRAVELOKA':
+					// result = (await zoo_part1_traveloka.run()).data.defaultExperienceTicketIdWithPriceDetails
+					// .map((detail) => {
+					// return {
+					// name: detail.experienceTicketId,  // 设置 name 为 fullName
+					// price: detail.ticketPrice.discountedPrice.currencyValue.amount  // 设置 price 为 displayPrice
+					// };
+					// });
+					// 获取包含 id 和 price 的结果
+					const priceDetails = (await zoo_part1_traveloka.run()).data.defaultExperienceTicketIdWithPriceDetails;
+					// 获取包含 id 和 name 的结果
+					const nameDetails = (await zoo_part2_traveloka.run()).data.ticketTypeDisplays;
+
+					// 构建一个 id 到 name 的映射表
+					const idToNameMap = new Map(nameDetails.map((detail) => [detail.experienceTicketId, detail.title]));
+
+					// 合并两个结果
+					result = priceDetails.map((detail) => {
+						const name = idToNameMap.get(detail.experienceTicketId); // 根据 id 获取 name
+						return {
+							name,  // 设置 name
+							price: detail.ticketPrice.discountedPrice.currencyValue.amount  // 设置 price
+						};
+					}).filter((item) => item.name); // 过滤掉没有 name 的项（确保数据完整）
+					break;
 
 				default:
 					showAlert("No matching query found for the selected platform", "error");
