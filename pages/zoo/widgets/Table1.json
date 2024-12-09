@@ -36,7 +36,7 @@
   ],
   "columnUpdatedAt": 1733663491027,
   "columnWidthMap": {
-    "name": 471,
+    "name": 368,
     "price": 482
   },
   "customIsLoading": false,
@@ -99,7 +99,7 @@
   "primaryColumns": {
     "name": {
       "alias": "name",
-      "allowCellWrapping": false,
+      "allowCellWrapping": true,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
@@ -143,7 +143,7 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "LEFT",
       "id": "price",
       "index": 1,
       "isCellEditable": false,
@@ -168,7 +168,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 43,
+  "rightColumn": 41,
   "searchKey": "",
   "tableData": "{{appsmith.store.tableData}}",
   "textSize": "0.875rem",
