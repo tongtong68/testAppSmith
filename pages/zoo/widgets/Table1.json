@@ -36,7 +36,7 @@
   ],
   "columnUpdatedAt": 1733663491027,
   "columnWidthMap": {
-    "name": 368,
+    "name": 313,
     "price": 482
   },
   "customIsLoading": false,
@@ -168,7 +168,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 41,
+  "rightColumn": 60,
   "searchKey": "",
   "tableData": "{{appsmith.store.tableData}}",
   "textSize": "0.875rem",
