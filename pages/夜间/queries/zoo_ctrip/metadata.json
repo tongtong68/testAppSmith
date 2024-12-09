@@ -1,0 +1,124 @@
+{
+  "gitSyncId": "673e8d12829f7b3535096dd3_e31dc164-911c-43ea-85d7-66e2a4be9930",
+  "id": "夜间_zoo_ctrip",
+  "pluginId": "restapi-plugin",
+  "pluginType": "API",
+  "unpublishedAction": {
+    "actionConfiguration": {
+      "body": "{\"enviroment\":\"PROD\",\"spotid\":0,\"poiId\":76136,\"needFilter\":true,\"resourceLimit\":true,\"filters\":[],\"needHotels\":false,\"updateSecKill\":false,\"needScenicSpotPrice\":true,\"passThroughParameters\":[{\"key\":\"scene\",\"value\":\"ticketsearch\"},{\"key\":\"anchorCategory\",\"value\":\"\"}],\"clientInfo\":{\"currency\":\"CNY\",\"locale\":\"zh-CN\",\"pageId\":\"10650014615\",\"channelId\":\"\",\"version\":\"8.2.2\",\"appPlatform\":\"\",\"extension\":[],\"syscode\":\"30\",\"cid\":\"\",\"location\":{\"cityType\":3}},\"head\":{\"cid\":\"52271069296505901973\",\"ctok\":\"\",\"cver\":\"1.1.410\",\"lang\":\"01\",\"sid\":\"\",\"syscode\":\"30\",\"auth\":\"\",\"sauth\":\"\",\"extension\":[{\"name\":\"trace\",\"value\":\"2e4e45b3-e4ec-d1e7-b968-172982035c50\"},{\"name\":\"needNewStructureV2\",\"value\":\"true\"},{\"name\":\"serverVersion\",\"value\":\"1.4\"},{\"name\":\"needActivityTag\",\"value\":\"true\"},{\"name\":\"aid\",\"value\":\"262684\"},{\"name\":\"sid\",\"value\":\"711465\"},{\"name\":\"imgSize\",\"value\":\"[{\\\"code\\\":\\\"shelf_hotel\\\",\\\"size\\\":\\\"C_300_540\\\"},{\\\"code\\\":\\\"shelf_act\\\",\\\"size\\\":\\\"C_300_540\\\"},{\\\"code\\\":\\\"shelf_ticket_group\\\",\\\"size\\\":\\\"C_300_540\\\"},{\\\"code\\\":\\\"shelf_recommend_background\\\",\\\"size\\\":\\\"Z_865_0\\\"},{\\\"code\\\":\\\"shelf_scan_package\\\",\\\"size\\\":\\\"W_620_0\\\"},{\\\"code\\\":\\\"shelf_swiper_poi\\\",\\\"size\\\":\\\"C_750_260\\\"}]\"},{\"name\":\"ctime\",\"value\":\"2024-10-25 09:42:55\"},{\"name\":\"crawlerKey\",\"value\":\"80e62fb6c530b896445f4cd5b33d3d6ce3b0954c244a145d9e685d5b4c393dd4\"},{\"name\":\"MiniType\",\"value\":\"WAP/WECHATAPP\"},{\"name\":\"miniprogramType\",\"value\":\"WECHATAPP\"},{\"name\":\"appId\",\"value\":\"wx0e6ed4f51db9d078\"},{\"name\":\"scene\",\"value\":\"1256\"}]},\"tags\":[{\"key\":\"seckill\",\"value\":\"newSeckill\"},{\"key\":\"effectiveDate\",\"value\":\"saleProperty\"},{\"key\":\"miniTangramTag\",\"value\":\"activityTag\"},{\"key\":\"preferenceShelf\",\"value\":\"T\"},{\"key\":\"ticketGroupCard\",\"value\":\"true\"},{\"key\":\"needProductAggregationJumpBooking\",\"value\":\"true\"},{\"key\":\"needPackingVersion3\",\"value\":\"true\"},{\"key\":\"hideShelfTypes\",\"value\":\"\"},{\"key\":\"needVideoInfo\",\"value\":\"T\"},{\"key\":\"needHighlights\",\"value\":\"T\"},{\"key\":\"qconfigTag\",\"value\":\"true\"},{\"key\":\"needOutboundTools\",\"value\":\"T\"},{\"key\":\"newSeckillStructure\",\"value\":\"v1\"},{\"key\":\"needRateLimit\",\"value\":\"T\"},{\"key\":\"needZonePoiShelfType\",\"value\":\"T\"},{\"key\":\"appUrlNoEncrypt\",\"value\":\"T\"},{\"key\":\"callRecallPK\",\"value\":\"pkOneOrMore\"},{\"key\":\"needNewSeckillCountdown\",\"value\":\"T\"},{\"key\":\"needProductActivity\",\"value\":\"T\"},{\"key\":\"needForcedLogin\",\"value\":\"T\"},{\"key\":\"poiMall\",\"value\":\"showShelfType\"},{\"key\":\"needPromotionFocusTags\",\"value\":\"T\"},{\"key\":\"needDateFilterExpend\",\"value\":\"T\"},{\"key\":\"needScanTicketSort\",\"value\":\"T\"}]}",
+      "encodeParamsToggle": true,
+      "formData": {
+        "apiContentType": "application/json"
+      },
+      "headers": [
+        {
+          "key": "Host",
+          "value": "m.ctrip.com"
+        },
+        {
+          "key": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "key": "Content-Length",
+          "value": "2528"
+        },
+        {
+          "key": "x-ctx-locale",
+          "value": "zh-CN"
+        },
+        {
+          "key": "User-Agent",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090c11)XWEB/11275"
+        },
+        {
+          "key": "x-ctx-group",
+          "value": "ctrip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "x-wx-openid",
+          "value": "d5ee05b2-3ec8-4137-8b10-ecfa40e25b73"
+        },
+        {
+          "key": "x-ctx-personal-recommend",
+          "value": "1"
+        },
+        {
+          "key": "xweb_xhr",
+          "value": "1"
+        },
+        {
+          "key": "x-ctx-region",
+          "value": "CN"
+        },
+        {
+          "key": "x-wx-include-credentials",
+          "value": "env"
+        },
+        {
+          "key": "Cookie",
+          "value": "Union=OUID=&AllianceID=262684&SID=711465&SourceID=55552689;GUID=52271069296505901973;"
+        },
+        {
+          "key": "x-ctx-currency",
+          "value": "CNY"
+        },
+        {
+          "key": "Accept",
+          "value": "*/*"
+        },
+        {
+          "key": "Sec-Fetch-Site",
+          "value": "cross-site"
+        },
+        {
+          "key": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "key": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "key": "Referer",
+          "value": "https://servicewechat.com/wx0e6ed4f51db9d078/941/page-frame.html"
+        },
+        {
+          "key": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "key": "Accept-Language",
+          "value": "zh-CN,zh;q=0.9"
+        }
+      ],
+      "httpMethod": "POST",
+      "paginationType": "NONE",
+      "path": "/restapi/soa2/21052/json/getProductShelf",
+      "queryParameters": [
+        {
+          "key": "_fxpcqlniredt",
+          "value": "52271069296505901973"
+        }
+      ],
+      "timeoutInMillisecond": 10000
+    },
+    "confirmBeforeExecute": false,
+    "datasource": {
+      "datasourceConfiguration": {
+        "url": "https://m.ctrip.com"
+      },
+      "isAutoGenerated": false,
+      "name": "https://m.ctrip.com",
+      "pluginId": "restapi-plugin"
+    },
+    "executeOnLoad": false,
+    "name": "zoo_ctrip",
+    "pageId": "夜间",
+    "userSetOnLoad": false
+  }
+}

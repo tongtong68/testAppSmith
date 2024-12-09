@@ -14,8 +14,12 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "zoo",
+      "id": "日间",
       "isDefault": true
+    },
+    {
+      "id": "夜间",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
