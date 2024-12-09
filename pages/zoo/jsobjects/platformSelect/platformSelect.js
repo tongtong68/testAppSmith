@@ -43,13 +43,8 @@ export default {
 
 					// 如果有 TRAVELOKA, 可使用以下代码
 				case 'TRAVELOKA':
-					// result = (await zoo_part1_traveloka.run()).data.defaultExperienceTicketIdWithPriceDetails
-					// .map((detail) => {
-					// return {
-					// name: detail.experienceTicketId,  // 设置 name 为 fullName
-					// price: detail.ticketPrice.discountedPrice.currencyValue.amount  // 设置 price 为 displayPrice
-					// };
-					// });
+					// 假设一个汇率，1 马来西亚币 (MYR) = 1.5 人民币 (CNY)
+					const exchangeRateMYRtoCNY = 1.65;
 					// 获取包含 id 和 price 的结果
 					const priceDetails = (await zoo_part1_traveloka.run()).data.defaultExperienceTicketIdWithPriceDetails;
 					// 获取包含 id 和 name 的结果
@@ -58,14 +53,17 @@ export default {
 					// 构建一个 id 到 name 的映射表
 					const idToNameMap = new Map(nameDetails.map((detail) => [detail.experienceTicketId, detail.title]));
 
-					// 合并两个结果
+					// 合并 id 和 price，根据 id 获取 name，并计算实际价格
 					result = priceDetails.map((detail) => {
 						const name = idToNameMap.get(detail.experienceTicketId); // 根据 id 获取 name
+						const amount = detail.ticketPrice.discountedPrice.currencyValue.amount;
+						const actualPrice = amount / Math.pow(10, detail.ticketPrice.discountedPrice.numOfDecimalPoint); // 根据小数点位数计算实际价格
+
 						return {
 							name,  // 设置 name
-							price: detail.ticketPrice.discountedPrice.currencyValue.amount  // 设置 price
+							price: actualPrice * exchangeRateMYRtoCNY // 设置计算后的实际价格
 						};
-					}).filter((item) => item.name); // 过滤掉没有 name 的项（确保数据完整）
+					}).filter((item) => item.name); // 过滤掉没有 name 的项
 					break;
 
 				default:
